@@ -68,10 +68,13 @@ mustang.moveCar(); //increments mustang' move property by 10. Returns the new mo
 var getYear = function(){
   return this.year;
 };
+getYear.call(prius);
+getYear.call(mustang);
 
 //Above you're given the getYear function. Using your prius and mustang objects from above, use the proper syntax that will allow for you to call the getYear function with the prius then the mustang objects being the focal objects. *Don't add getYear as a property on both objects*.
 
 //Note(no tests)
+
   //Code Here
 
 
